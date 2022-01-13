@@ -1,0 +1,108 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	height: 350px;
+	width: 100%;
+	color: rgb(0, 0, 0);
+	text-shadow: 0in;
+}
+
+.jumbotron .display-4 {
+	margin-bottom: 40px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: rgb(0, 0, 0);
+	width: 400px;
+	border-width: 3px;
+}
+/*Akhir Jumbotron*/
+
+/*Navbar*/
+.navbar {
+	background-color: rgb(36, 113, 165);
+}
+
+.navbar .navbar-nav .nav-link {
+	color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-brand  {
+	font-size: 30px;
+    color :rgb(0, 0, 0);
+}
+/*Akhir Navbar*/
+
+/*Footer*/
+.footer {
+	margin-top: 150px;
+	border-width: 3px;
+}
+
+.footer-body {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+/*Akhir Footer*/
+
+/*Home*/
+.judul {
+	margin-bottom: 150px;
+	margin-top : 80 px;
+}
+
+.card-img:hover {
+	box-shadow: 2px 2px 10px rgba(2, 86, 134, 0.4);	
+}
+
+/*Akhir Home*/
+/* Contact */
+#floatingtextarea {
+	height: 150px
+  }
+  /* Footer */
+  footer a.text-light:hover {
+	color: #bfbfbf ;
+	transition-duration: 0.15s;
+	margin-top: 1200px;
+  }
+
+  /*test*/
+  .pinned {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: rgb(255, 247, 247);
+    box-shadow: inset 5px 5px 3px rgb(51, 50, 50, 20%), 
+        inset -2px -2px 4px rgb(51, 50, 50, 20%);
+}
+
+.show .pinned {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.carousel-item {
+	height: 450px;
+}
+
+.text{
+	color: black;
+}
